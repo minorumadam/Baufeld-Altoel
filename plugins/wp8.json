@@ -1,0 +1,39 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "com.cordova.plugins.sms": {
+            "PACKAGE_NAME": "{8d560e70-24fa-11e6-8e29-c9d37416f4ca}"
+        },
+        "cordova-plugin-console": {
+            "PACKAGE_NAME": "{8d560e70-24fa-11e6-8e29-c9d37416f4ca}"
+        },
+        "cordova-plugin-device": {
+            "PACKAGE_NAME": "{8d560e70-24fa-11e6-8e29-c9d37416f4ca}"
+        },
+        "cordova-plugin-email-composer": {
+            "PACKAGE_NAME": "{8d560e70-24fa-11e6-8e29-c9d37416f4ca}"
+        },
+        "cordova-plugin-inappbrowser": {
+            "PACKAGE_NAME": "{8d560e70-24fa-11e6-8e29-c9d37416f4ca}"
+        },
+        "cordova-plugin-splashscreen": {
+            "PACKAGE_NAME": "{8d560e70-24fa-11e6-8e29-c9d37416f4ca}"
+        },
+        "cordova-plugin-transport-security": {
+            "PACKAGE_NAME": "{8d560e70-24fa-11e6-8e29-c9d37416f4ca}"
+        },
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "{8d560e70-24fa-11e6-8e29-c9d37416f4ca}"
+        },
+        "cordova-plugin-wkwebview-engine": {
+            "PACKAGE_NAME": "{8d560e70-24fa-11e6-8e29-c9d37416f4ca}"
+        }
+    },
+    "dependent_plugins": {}
+}
