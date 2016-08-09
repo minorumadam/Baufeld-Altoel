@@ -1,0 +1,39 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "com.cordova.plugins.sms": {
+            "PACKAGE_NAME": "com.aa"
+        },
+        "cordova-plugin-console": {
+            "PACKAGE_NAME": "com.aa"
+        },
+        "cordova-plugin-device": {
+            "PACKAGE_NAME": "com.aa"
+        },
+        "cordova-plugin-email-composer": {
+            "PACKAGE_NAME": "com.aa"
+        },
+        "cordova-plugin-inappbrowser": {
+            "PACKAGE_NAME": "com.aa"
+        },
+        "cordova-plugin-splashscreen": {
+            "PACKAGE_NAME": "com.aa"
+        },
+        "cordova-plugin-transport-security": {
+            "PACKAGE_NAME": "com.aa"
+        },
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "com.aa"
+        },
+        "cordova-plugin-wkwebview-engine": {
+            "PACKAGE_NAME": "com.aa"
+        }
+    },
+    "dependent_plugins": {}
+}
