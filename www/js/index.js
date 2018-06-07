@@ -4,6 +4,7 @@ $("#page1").click(function () {
 
     $("#view-5").css({"display":"block"});
     $("#view-6").css({"display":"none"});
+    $("#gobb").css({ "display": "none" });
 
     $(".tabbar-demo-icon1").addClass("tabbar_op");
     $(".tabbar-demo-icon2").removeClass("tabbar_op");
@@ -13,6 +14,7 @@ $("#page1").click(function () {
 });
 
 $("#page2").click(function () {
+    $("#gobb").css({ "display": "none" });
     $(".tabbar-demo-icon1").removeClass("tabbar_op");
     $(".tabbar-demo-icon2").addClass("tabbar_op");
     $(".tabbar-demo-icon3").removeClass("tabbar_op");
@@ -20,7 +22,7 @@ $("#page2").click(function () {
 });
 
 $("#page3").click(function () {
-
+    $("#gobb").css({ "display": "none" });
     $(".tabbar-demo-icon1").removeClass("tabbar_op");
     $(".tabbar-demo-icon2").removeClass("tabbar_op");
     $(".tabbar-demo-icon3").addClass("tabbar_op");
@@ -28,7 +30,7 @@ $("#page3").click(function () {
 });
 
 $("#page4").click(function () {
-
+    $("#gobb").css({ "display": "block" });
     $(".tabbar-demo-icon1").removeClass("tabbar_op");
     $(".tabbar-demo-icon2").removeClass("tabbar_op");
     $(".tabbar-demo-icon3").removeClass("tabbar_op");
@@ -146,6 +148,10 @@ $("#anf").click(function(){
 });
 $("#auf").click(function(){
     var ref = cordova.InAppBrowser.open('https://myportal.baufeld.de/baufeld/de', '_blank', 'location=no');
+});
+
+$("#gobb").click(function () {
+    cordova.InAppBrowser.open('https://baufeld.de/datenschutzerklaerung', '_blank', 'location=no');
 });
 
 // // 

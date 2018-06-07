@@ -1,0 +1,23 @@
+{
+  "name": "com.baufeld.altoel",
+  "version": "0.0.4",
+  "displayName": "Baufeld Altoel",
+  "cordova": {
+    "platforms": [
+      "ios",
+      "android",
+      "windows"
+    ],
+    "plugins": {
+      "cordova-plugin-whitelist": {},
+      "cordova-plugin-inappbrowser": {}
+    }
+  },
+  "dependencies": {
+    "cordova-android": "^7.0.0",
+    "cordova-ios": "^4.5.4",
+    "cordova-plugin-inappbrowser": "^3.0.0",
+    "cordova-plugin-whitelist": "1",
+    "cordova-windows": "^5.0.0"
+  }
+}
